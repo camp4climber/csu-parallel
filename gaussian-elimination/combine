@@ -1,0 +1,3 @@
+#! /bin/sh
+cat *.o* >> combined-output
+rm -f *.o*

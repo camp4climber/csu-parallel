@@ -1,0 +1,42 @@
+Wed May 13 13:32:58 PDT 2015
+Number of cores: 40
+Number of threads: 1
+Time: 1894.3 seconds.
+L-Squared Norm = 1.33559e-05.
+1895.81user 0.25system 31:36.27elapsed 99%CPU (0avgtext+0avgdata 2005904maxresident)k
+0inputs+0outputs (0major+125411minor)pagefaults 0swaps
+Wed May 13 13:24:23 PDT 2015
+Number of cores: 40
+Number of threads: 2
+Time: 978.869 seconds.
+L-Squared Norm = 1.33559e-05.
+1959.14user 0.27system 16:20.85elapsed 199%CPU (0avgtext+0avgdata 2005984maxresident)k
+0inputs+0outputs (0major+125416minor)pagefaults 0swaps
+Wed May 13 13:17:42 PDT 2015
+Number of cores: 40
+Number of threads: 5
+Time: 398.269 seconds.
+L-Squared Norm = 1.33559e-05.
+1992.40user 0.30system 6:40.26elapsed 497%CPU (0avgtext+0avgdata 2006096maxresident)k
+0inputs+0outputs (0major+125423minor)pagefaults 0swaps
+Wed May 13 13:13:40 PDT 2015
+Number of cores: 40
+Number of threads: 10
+Time: 239.885 seconds.
+L-Squared Norm = 1.33559e-05.
+2399.44user 0.27system 4:01.91elapsed 991%CPU (0avgtext+0avgdata 2006256maxresident)k
+0inputs+0outputs (0major+125433minor)pagefaults 0swaps
+Wed May 13 13:08:15 PDT 2015
+Number of cores: 40
+Number of threads: 20
+Time: 321.798 seconds.
+L-Squared Norm = 1.33559e-05.
+6435.08user 0.33system 5:23.81elapsed 1987%CPU (0avgtext+0avgdata 2006560maxresident)k
+0inputs+0outputs (0major+125452minor)pagefaults 0swaps
+Wed May 13 13:03:28 PDT 2015
+Number of cores: 40
+Number of threads: 30
+Time: 284.039 seconds.
+L-Squared Norm = 1.33559e-05.
+8519.21user 0.30system 4:46.01elapsed 2978%CPU (0avgtext+0avgdata 2006928maxresident)k
+0inputs+0outputs (0major+125475minor)pagefaults 0swaps

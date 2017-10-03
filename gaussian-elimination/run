@@ -1,0 +1,18 @@
+#!/bin/sh
+### script to run one job
+
+### Set the job name
+#PBS -N hello
+
+### Join the standard output and standard error streams
+#PBS -j oe
+
+### Specify wallclock time required for this job, hhh:mm:ss
+#PBS -l walltime=01:00:00
+
+### set directory for job execution
+cd /home/juch/juch-s22
+
+### record the date, then time your executable program
+date
+/usr/bin/time ./partialpivot

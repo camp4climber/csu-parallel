@@ -1,0 +1,8 @@
+#! /bin/sh
+rm -f *.o* combined-output
+qsub -v OMP_NUM_THREADS=1 -l select=1:ncpus=1 ./run
+qsub -v OMP_NUM_THREADS=2 -l select=1:ncpus=2 ./run
+qsub -v OMP_NUM_THREADS=5 -l select=1:ncpus=5 ./run
+qsub -v OMP_NUM_THREADS=10 -l select=1:ncpus=10 ./run
+qsub -v OMP_NUM_THREADS=20 -l select=1:ncpus=20 ./run
+qsub -v OMP_NUM_THREADS=30 -l select=1:ncpus=30 ./run
